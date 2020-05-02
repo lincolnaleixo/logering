@@ -10,7 +10,7 @@ const {
 } = require('winston')
 // const defaults = require('../resources/defaults.json')
 
-class Logger {
+class Logering {
 
 	constructor(module) {
 		this.colorizer = format.colorize()
@@ -60,4 +60,4 @@ class Logger {
 
 }
 
-module.exports = Logger
+module.exports = Logering

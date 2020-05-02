@@ -1,7 +1,7 @@
 {
-  "name": "logerr",
-  "version": "1.0.0",
-  "main": "src/logger.js",
+  "name": "logering",
+  "version": "0.0.1",
+  "main": "src/logering.js",
   "license": "MIT",
   "engines": {
     "node": ">=12.16"

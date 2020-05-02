@@ -1,0 +1,20 @@
+{
+  "name": "logerr",
+  "version": "1.0.0",
+  "main": "src/logger.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.16"
+  },
+  "devDependencies": {
+    "eslint-config-node-script-js": "^1.0.11"
+  },
+  "dependencies": {
+    "alertguy": "^1.0.3",
+    "cawer": "^1.0.6",
+    "configurati": "^1.0.10",
+    "moment": "^2.25.1",
+    "moment-timezone": "^0.5.28",
+    "winston": "^3.2.1"
+  }
+}

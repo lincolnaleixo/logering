@@ -8,4 +8,4 @@
 
 #### There're probably more than 100 logger libraries better than this one. This is a personal library to use for personal projects/other libraries. So use with extreme caution!
 
-#### Roadmap can be found here: [Roadmap](https://github.com/lincolnaleixo/logering/meta/ROADMAP.md)
+#### Roadmap can be found here: [Roadmap](https://github.com/lincolnaleixo/logering/blob/master/meta/ROADMAP.md)

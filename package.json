@@ -7,7 +7,7 @@
     "node": ">=12.16"
   },
   "devDependencies": {
-    "eslint-config-node-script-js": "^1.0.11"
+    "eslint-config-node-script-js": "^1.0.13"
   },
   "dependencies": {
     "alertguy": "^1.0.3",

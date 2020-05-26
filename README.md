@@ -1,5 +1,6 @@
 # Logering
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/94ff3c0638b1431b998fd4f2ab142232)](https://app.codacy.com/manual/lincolnaleixo/logering?utm_source=github.com&utm_medium=referral&utm_content=lincolnaleixo/logering&utm_campaign=Badge_Grade_Dashboard)
 [![GitHub](https://img.shields.io/github/license/lincolnaleixo/logering?style=for-the-badge)](https://github.com/lincolnaleixo/logering/blob/master/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/lincolnaleixo/logering?style=for-the-badge)](https://github.com/lincolnaleixo/logering/graphs/contributors)
 [![GitHub last commit](https://img.shields.io/github/last-commit/lincolnaleixo/logering?style=for-the-badge)](https://github.com/lincolnaleixo/logering/commits/master)

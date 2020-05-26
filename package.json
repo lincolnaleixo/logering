@@ -35,7 +35,7 @@
     "configurati": "^1.0.10",
     "jest": "^26.0.1",
     "moment": "^2.25.1",
-    "moment-timezone": "^0.5.28"
+    "moment-timezone": "^0.5.31"
   },
   "repository": {
     "type": "git",

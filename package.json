@@ -1,10 +1,30 @@
 {
   "name": "logering",
-  "version": "0.0.2",
-  "main": "src/logering.js",
   "license": "MIT",
+  "version": "0.0.2",
+  "description": "a different logger package",
+  "main": "src/logering.js",
+  "keywords": [
+    "logs",
+    "logger",
+    "log"
+  ],
+  "author": "Lincoln Aleixo",
+  "scripts": {
+    "start": "NODE_ENV=PRODUCTION node app/main.js",
+    "dev": "NODE_ENV=DEVELOPMENT node app/main.js",
+    "debug": "NODE_ENV=DEBUG node app/main.js",
+    "gulp": "gulp",
+    "pkg": "app.js"
+  },
+  "bin": "app/main.js",
+  "pkg": {
+    "scripts": [
+      "app/**/*"
+    ]
+  },
   "engines": {
-    "node": ">=12.16"
+    "node": ">=12"
   },
   "devDependencies": {
     "eslint-config-node-script-js": "^1.0.13"
@@ -14,7 +34,14 @@
     "cawer": "^1.0.6",
     "configurati": "^1.0.10",
     "moment": "^2.25.1",
-    "moment-timezone": "^0.5.28",
-    "winston": "^3.2.1"
-  }
+    "moment-timezone": "^0.5.28"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lincolnaleixo/logering"
+  },
+  "bugs": {
+    "url": "https://github.com/lincolnaleixo/logering/issues"
+  },
+  "homepage": "https://github.com/lincolnaleixo/logering#readme"
 }

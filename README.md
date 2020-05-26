@@ -15,8 +15,16 @@
 
 ---
 
-### A different (yet the same) logger approach library for node.js
+## A different (yet the same) logger approach library for node.js
 
-#### There're probably more than 100 logger libraries better than this one. This is a personal library to use for personal projects/other libraries. So use with extreme caution!
+### There're probably more than 100 logger libraries better than this one. This is a personal library to use for personal projects/other libraries. So use with extreme caution!
 
 #### Roadmap can be found here: [Roadmap](https://github.com/lincolnaleixo/logering/blob/master/meta/ROADMAP.md)
+
+#### this library was made possible by the help of the folliwng libraries:
+-   alertguy
+-   cawer
+-   configurati
+-   jest
+-   moment
+-   moment-timezone

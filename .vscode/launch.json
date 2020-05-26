@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "Attach 9229",
+      "port": 9229
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Name",
+      "program": "${workspaceFolder}/app/main.js",
+      "envFile": "${workspaceFolder}/debug/debug.env",
+      "args": [
+        "--test",
+        "test arg"
+      ],
+      "skipFiles": [
+        "${workspaceFolder}/node_modules/**/*.js"
+      ],
+      "outputCapture": "std",
+      "console": "internalConsole"
+    }
+  ]
+}

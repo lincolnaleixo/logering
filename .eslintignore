@@ -1,5 +1,0 @@
-node_modules/**/*
-build/**/*
-archive/**/*
-webpack.config.js
-public/html/**

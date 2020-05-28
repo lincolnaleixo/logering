@@ -6,6 +6,7 @@
 environment
 config
 temp
+cache
 
 ### Code ###
 .vscode/*

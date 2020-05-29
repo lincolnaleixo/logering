@@ -14,6 +14,7 @@
     "start": "NODE_ENV=PRODUCTION node app/main.js",
     "dev": "NODE_ENV=DEVELOPMENT node app/main.js",
     "debug": "NODE_ENV=DEBUG node app/main.js",
+    "test": "jest",
     "gulp": "gulp",
     "pkg": "app.js"
   },
@@ -30,9 +31,9 @@
     "eslint-config-node-script-js": "^1.0.13"
   },
   "dependencies": {
+    "@types/jest": "^25.2.3",
     "alertguy": "^1.0.3",
     "cawer": "^1.0.6",
-    "configurati": "^1.0.10",
     "jest": "^26.0.1",
     "moment": "^2.25.1",
     "moment-timezone": "^0.5.28"

@@ -2,11 +2,12 @@
 /* eslint-disable require-jsdoc */
 // const moment = require('moment-timezone')
 const fs = require('fs')
+require('dotenv').config()
 
 class Core {
 
-	constructor(options) {
-		this.options = options
+	constructor(module) {
+		this.module = module
 	}
 
 	log(color, rawMsg, type) {
@@ -15,14 +16,14 @@ class Core {
 			const date = new Date()
 			const dateIsoString = date.toISOString()
 
-			if (this.options.logId) msgArray.push(date.getTime())
-			if (this.options.date) msgArray.push(dateIsoString)
+			if (process.env.LOGERING_LOG_ID) msgArray.push(date.getTime())
+			if (process.env.LOGERING_DATE) msgArray.push(dateIsoString)
 
 			msgArray.push(`${type}${(type === 'info' || type === 'warn') ? ' ' : ''}`)
-			if (this.options.module) msgArray.push(`${this.options.module}`)
+			if (this.module) msgArray.push(`${this.module}`)
 			msgArray.push(rawMsg)
 
-			if (this.options.logFilePath) fs.appendFileSync(this.options.logFilePath, `${msgArray.join('\t')}\n`)
+			if (process.env.LOGERING_FILE_PATH) fs.appendFileSync(process.env.LOGERING_FILE_PATH, `${msgArray.join('\t')}\n`)
 
 			console.log(color, msgArray.join(' | '))
 

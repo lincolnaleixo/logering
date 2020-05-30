@@ -2,17 +2,9 @@
 const Logering = require('../src/logering');
 
 (async () => {
-	const log = new Logering({
-		module: 'test',
-		logId: true,
-		date: true,
-		dateTimeZone: 'UTC',
-	})
+	const log = new Logering('test')
 	if (require.main === module) {
-		log.options = {
-			...log.options,
-			...{ logFilePath: 'logs/log.log' },
-		}
+		process.env.LOGERING_FILE_PATH = process.env.LOGERING_FILE_PATH_BACKUP
 		log.debug('this is a debug message')
 		log.info('this is a info message')
 		log.warn('this is a warning message')
@@ -29,11 +21,9 @@ const Logering = require('../src/logering');
 		})
 		test('log error type', () => {
 			expect(log.error('this is a error message')).toBe(true)
+			process.env.LOGERING_FILE_PATH = 'logs/log.log'
 		})
-		log.options = {
-			...log.options,
-			...{ logFilePath: 'logs/log.log' },
-		}
+
 		test('log debug type on file', () => {
 			expect(log.debug('this is a debug message')).toBe(true)
 		})

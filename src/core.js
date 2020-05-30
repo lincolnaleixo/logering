@@ -23,9 +23,13 @@ class Core {
 			if (this.module) msgArray.push(`${this.module}`)
 			msgArray.push(rawMsg)
 
-			if (process.env.LOGERING_FILE_PATH) fs.appendFileSync(process.env.LOGERING_FILE_PATH, `${msgArray.join('\t')}\n`)
+			if (process.env.LOGERING_FILE_PATH !== undefined
+				&& process.env.LOGERING_FILE_PATH !== ''
+				&& process.env.LOGERING_FILE_PATH !== 'undefined') fs.appendFileSync(process.env.LOGERING_FILE_PATH, `${msgArray.join('\t')}\n`)
 
-			console.log(color, msgArray.join(' | '))
+			if (type === 'debug') {
+				if (process.env.NODE_ENV === 'DEBUG' || process.env.NODE_ENV === 'DEVELOPMENT') console.log(color, msgArray.join(' | '))
+			} else console.log(color, msgArray.join(' | '))
 
 			return true
 		} catch (err) {

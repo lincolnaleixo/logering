@@ -1,7 +1,7 @@
 {
   "name": "logering",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.1.0-beta",
   "description": "a different logger package",
   "main": "src/logering.js",
   "keywords": [
@@ -31,10 +31,12 @@
     "eslint-config-node-script-js": "^1.0.13"
   },
   "dependencies": {
+    "@sentry/node": "5.15.5",
     "@types/jest": "^25.2.3",
     "alertguy": "^1.0.3",
     "cawer": "^1.0.6",
     "dotenv": "^8.2.0",
+    "googleapis": "^51.0.0",
     "jest": "^26.0.1",
     "moment": "^2.25.1",
     "moment-timezone": "^0.5.28"

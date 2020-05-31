@@ -85,31 +85,19 @@ class Logering extends Core {
 
 	debug(msg) {
 		return this.log(colors.DEBUG, msg, 'debug')
-		// console.log('\x1b[36m%s\x1b[0m', 'I am cyan') // cyan
-		// console.log('\x1b[33m%s\x1b[0m', 'I am yellow') // yellow
 	}
 
 	info(msg) {
 		return this.log(colors.INFO, msg, 'info')
-		// console.log('\x1b[36m%s\x1b[0m', 'I am cyan') // cyan
-		// console.log('\x1b[33m%s\x1b[0m', 'I am yellow') // yellow
 	}
 
 	warn(msg) {
 		return this.log(colors.WARN, msg, 'warn')
-		// console.log('\x1b[36m%s\x1b[0m', 'I am cyan') // cyan
-		// console.log('\x1b[33m%s\x1b[0m', 'I am yellow') // yellow
 	}
 
 	error(msg) {
 		return this.log(colors.ERROR, msg, 'error')
-		// console.log('\x1b[36m%s\x1b[0m', 'I am cyan') // cyan
-		// console.log('\x1b[33m%s\x1b[0m', 'I am yellow') // yellow
 	}
-
-	// get() {
-	// 	return this.logger
-	// }
 
 }
 

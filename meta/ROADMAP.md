@@ -5,35 +5,12 @@
 <br>
 
 - Q2 2020
-  - [ ] GFM task list 1
-  - [ ] GFM task list 2
-  - [ ] GFM task list 3
-      - [ ] GFM task list 3-1
-      - [ ] GFM task list 3-2
-      - [ ] GFM task list 3-3
-  - [ ] GFM task list 4
-      - [ ] GFM task list 4-1
-      - [ ] GFM task list 4-2
-
+  - [x] Initial version
+  - [x] debug, info, warning and error log types
+  - [x] Option to send to Sentry server
+  - [x] Implement tests
 - Q3 2020
-  - [ ] GFM task list 1
-  - [ ] GFM task list 2
-  - [ ] GFM task list 3
-      - [ ] GFM task list 3-1
-      - [ ] GFM task list 3-2
-      - [ ] GFM task list 3-3
-  - [ ] GFM task list 4
-      - [ ] GFM task list 4-1
-      - [ ] GFM task list 4-2
-
-
-- Q4 2020
-  - [ ] GFM task list 1
-  - [ ] GFM task list 2
-  - [ ] GFM task list 3
-      - [ ] GFM task list 3-1
-      - [ ] GFM task list 3-2
-      - [ ] GFM task list 3-3
-  - [ ] GFM task list 4
-      - [ ] GFM task list 4-1
-      - [ ] GFM task list 4-2
+  - [ ] Option to send alert when error log
+  - [ ] Add critical type
+  - [ ] Make better integration with Sentry
+  - [ ] Make code more readable

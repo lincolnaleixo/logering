@@ -1,11 +1,7 @@
 {
   "name": "logering",
   "license": "MIT",
-<<<<<<< HEAD
   "version": "0.1.4",
-=======
-  "version": "0.1.4",
->>>>>>> master
   "description": "a different logger package",
   "main": "src/logering.js",
   "keywords": [

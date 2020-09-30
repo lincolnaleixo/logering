@@ -10,13 +10,8 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Name",
-      "program": "${workspaceFolder}/app/main.js",
-      "envFile": "${workspaceFolder}/debug/debug.env",
-      "args": [
-        "--test",
-        "test arg"
-      ],
+      "name": "Logering test",
+      "program": "${workspaceFolder}/tests/logering.test.js",
       "skipFiles": [
         "${workspaceFolder}/node_modules/**/*.js"
       ],

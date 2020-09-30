@@ -1,7 +1,7 @@
 {
   "name": "logering",
   "license": "MIT",
-  "version": "0.1.11",
+  "version": "0.2.0",
   "description": "a different logger package",
   "main": "src/logering.js",
   "keywords": [
@@ -10,35 +10,16 @@
     "log"
   ],
   "author": "Lincoln Aleixo",
-  "scripts": {
-    "start": "NODE_ENV=PRODUCTION node app/main.js",
-    "dev": "NODE_ENV=DEVELOPMENT node app/main.js",
-    "debug": "NODE_ENV=DEBUG node app/main.js",
-    "test": "jest",
-    "gulp": "gulp",
-    "pkg": "app.js"
-  },
-  "pkg": {
-    "scripts": [
-      "app/**/*"
-    ]
-  },
   "engines": {
     "node": ">=12"
   },
   "devDependencies": {
-    "@types/jest": "^25.2.3",
-    "eslint-config-node-script-js": "^1.0.13",
-    "jest": "^26.0.1"
+    "eslint-config-node-script-js": "^1.0.19"
   },
   "dependencies": {
     "@sentry/node": "5.15.5",
-    "alertguy": "^1.0.3",
-    "cawer": "^1.0.6",
-    "dotenv": "^8.2.0",
-    "googleapis": "^51.0.0",
-    "moment": "^2.25.1",
-    "moment-timezone": "^0.5.28"
+    "app-root-path": "^3.0.0",
+    "jsonfile": "^6.0.1"
   },
   "repository": {
     "type": "git",

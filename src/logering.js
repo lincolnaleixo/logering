@@ -99,6 +99,10 @@ class Logering extends Core {
 		return this.log(colors.ERROR, msg, 'error')
 	}
 
+	fatal(msg) {
+		return this.log(colors.FATAL, msg, 'fatal')
+	}
+
 }
 
 module.exports = Logering
